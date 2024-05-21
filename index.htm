@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AR3S</title>
+    <link rel="shortcut icon" href="/images/ares.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#home">Ar3s</a>
+      </div>
+      <div class="path">
+        <a href="#about" aria-label="About Section">About</a>
+        <a href="#projects" aria-label="Projects Section">Projects</a>
+        <a href="#contact" aria-label="Contact Section">Contact</a>
+      </div>
+    </div>
+
+
+    <div class="page1">
+        <img src="/images/sukuna.jpg" alt="Anime Image" class="background-image" />
+        <div class="contact-details">
+          <h1>Ar3s</h1>
+          <p>Email: <a href="mailto:arnav.tkd@gmail.com">arnav.tkd@gmail.com</a></p>
+          <p>Phone: <a href="tel:+917599988813">+917599988813</a></p>
+          <p>Location: Roorkee, Uttarakhand, India</p>
+        </div>
+      </div>
+  
+
+    <div class="page2" id="about">
+      <p>About Me :</p>
+      <div class="code">
+        <pre>
+            #include<iostream>
+            using namespace std;
+            int main(){
+                string name;
+                string level;
+                string location;
+                cin.getline(name, 50);
+                cin.getline(level, 50);
+                cin.getline(location, 50);
+                vector<string> interests(3);
+                for(int i = 0; i < 3; i++){
+                    cin.getline(interests[i],50);
+                } 
+                cout << "Hello, my name is" << name << " and I'm an "<< level << "at" << location << " I like to" << interests[0] << " and " << interests[1] << " and I also enjoy " << interests[2];
+            }
+        </pre>
+      </div>
+      <div class="intro">
+        <span>>></span>Hello, my name is <span>Arnav Kirti</span> and I'm an
+        <span>Undergraduate Student </span>
+        at
+        <span>IIT Roorkee</span> I like to
+        <span>explore new technology</span> and
+        <span>watch Anime</span> and I also enjoy
+        <span>playing Taekwondo</span>
+      </div>
+      <div id="box2">
+        <h4>My Interests :</h4>
+        <ul>
+            <li>Web Development
+                <ul><li>Full Stack</li></ul>
+            </li>
+            <li>Competitve Programming</li>
+            <li>Web 3.0
+                <ul><li>Blockchain</li><li>Decentralised-Finance</li></ul>
+            </li>
+            <li>Finance</li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="page3" id="projects">
+      <p>Projects</p>
+      <div class="row">
+        <a
+          href="https://github.com/arnavkirti/Decentralized-social-media"
+          class="card"
+        >
+          <h4>>>> Decentralized-social-media</h4>
+          <h5>
+            This is a decentralised social media with features such as adding
+            tweets, toggle of dark mode, a to-do app within the app, a election
+            poll and feed of tweets and feed of embed tweets.
+            <p>With this project I won StackTooDeep Hackathon organised by BlocSoc IITR.
+          </h5>
+        </a>
+        <a href="https://github.com/arnavkirti/2dSherGill" class="card">
+          <h4>>>> 2dSherGill</h4>
+          <h5>
+            My Global Game Jam 2024 project in which 'courage the cowardly dog'
+            fights some supernatural beings to protect his home.
+          </h5>
+        </a>
+      </div>
+    </div>
+
+    <div class="page4" id="contact">
+      <p>Contact</p>
+
+      <form class="feedback-box">
+        <div class="inputbox">
+          <input type="email" class="input" required="required" />
+          <span>Email</span>
+        </div>
+
+        <div class="inputbox feedback">
+          <textarea class="input" rows="6" cols="50"></textarea>
+          <span>Message</span>
+        </div>
+        <button>Submit</button>
+      </form>
+
+      <div class="links-bg">
+        <div class="links">
+          <a href="https://github.com/arnavkirti"
+            ><img src="/images/github.png" alt="Github"
+          /></a>
+          <a href="https://instagram.com/arnav.kirti/"
+            ><img src="images/insta.png" alt="Instagram"
+          /></a>
+          <a href="https://www.linkedin.com/in/arnav-kirti-49616a1b9/"
+            ><img src="images/linkedin.png" alt="LinkedIn"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
