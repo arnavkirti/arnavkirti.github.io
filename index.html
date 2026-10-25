@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arnav Kirti</title>
+<meta name="description" content="Arnav Kirti — developer, IIT Roorkee. Full-stack and web3.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23c2410c'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='white' font-family='sans-serif'>A</text></svg>">
+
+<!-- =====================================================================
+     EDIT YOUR CONTENT HERE. This block is the only part you need to touch.
+     - Add an item: copy a { ... }, paste it, change the text.
+     - Remove an item: delete its { ... },
+     - Leave link: "" if there's no link — it just won't show one.
+     - Delete a whole section's items (make it [] ) and it disappears.
+     ===================================================================== -->
+<script>
+const SITE = {
+  name: "Arnav Kirti",
+  about: "Final-year B.Tech at IIT Roorkee. I build full-stack and web3 products, and I like testing them properly. Summer of Bitcoin '26, hackathon winner, 2nd Dan black belt in taekwondo.",
+
+  links: [
+    { label: "GitHub",   url: "https://github.com/arnavkirti" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/arnav-kirti-49616a1b9/" },
+    { label: "X",        url: "https://x.com/ArnavKirti" },
+    { label: "Email",    url: "mailto:arnav.tkd@gmail.com" },
+    { label: "Resume",   url: "resume.pdf" }
+  ],
+
+  experience: [
+    { role: "Open Source Contributor", org: "Summer of Bitcoin · Shopstr", date: "May – Sep 2026", link: "https://github.com/shopstr-eng/shopstr",
+      note: "#2 all-time contributor to Shopstr (93 commits, 39K+ lines). Built the CI merge gate and scaled the suite to 2,610 Jest tests." },
+    { role: "Full Stack Developer Intern", org: "M2ai", date: "May – Jul 2025", link: "",
+      note: "Shipped React + AWS features and integrated Stripe payments." },
+    { role: "Blockchain Developer Intern", org: "Blockseblock", date: "Jun – Jul 2025", link: "",
+      note: "Rust canisters and React frontends on the Internet Computer." },
+    { role: "Front End Developer", org: "Orbit Opportunity and Media", date: "Apr – Jun 2025", link: "",
+      note: "Angular and React interfaces, reusable components, API integration." }
+  ],
+
+  projects: [
+    { name: "Defi-Dojo", award: "ETHGlobal winner", link: "",
+      note: "Interactive DeFi playground: simulate swaps, staking and flash loans without risking real funds.",
+      tags: ["Next.js", "Solidity", "TheGraph", "AgentKit"] },
+    { name: "Bitcoin Runes Prediction Market", award: "Tech GC '25", link: "",
+      note: "Trustless event betting on Bitcoin Runes with instant payouts; 10+ live testnet markets.",
+      tags: ["TypeScript", "Bitcoin.js", "Xverse", "React"] },
+    { name: "ERP Middleware for ICICI Bank", award: "Tech GC '25 · 1st runner-up", link: "",
+      note: "One API layer that maps SAP and Oracle ERP data into a unified schema.",
+      tags: ["Node.js", "Python", "OAuth 2.0"] },
+    { name: "Compression Portal", award: "", link: "",
+      note: "Huffman, RLE and LZ77 compression with visual explanations of each algorithm.",
+      tags: ["React", "NestJS", "TypeScript"] },
+    { name: "Food Waste Classifier", award: "", link: "",
+      note: "Image + text model that sorts hostel food waste (70% accuracy), with a trends dashboard.",
+      tags: ["TensorFlow", "OpenCV", "Flask"] },
+    { name: "Decentralised Social Media", award: "StackTooDeep winner", link: "https://github.com/arnavkirti/Decentralized-social-media",
+      note: "On-chain posts and interactions with a live Twitter feed.",
+      tags: ["Solidity", "React", "Ethers.js"] }
+  ],
+
+  achievements: [
+    { title: "ETHGlobal Agentic Ethereum — AgentKit pool prize", date: "2025" },
+    { title: "StackTooDeep V2.0 — Open Track and UniDAO Track winner", date: "" },
+    { title: "StackTooDeep — Freshers' Track winner", date: "2024" },
+    { title: "Tech GC '25 — 1st runner-up, ICICI Bank and BlockseBlock problem statements", date: "2025" },
+    { title: "Blockathon, Cognizance — 2nd runner-up", date: "" },
+    { title: "Taekwondo — 2nd Dan black belt; National gold (2017), silver (2019), bronze (2024)", date: "" }
+  ],
+
+  campus: [
+    { role: "Joint Secretary, Development", org: "Cultural Council", date: "2025 – 26" },
+    { role: "Executive Member, Development", org: "Students' Technical Council", date: "2024 – 25" },
+    { role: "Frontend Developer", org: "Appetizer", date: "2024 – 25" },
+    { role: "Teaching Assistant, CSE-101", org: "Academic Reinforcement Program", date: "2025" }
+  ],
+
+  // Blog: write the post as a Markdown file in the blog/ folder,
+  // then add one line here. "slug" = the file name without .md
+  writing: [
+    { title: "A Practical Guide to Writing Gas-Efficient Solidity", date: "Jun 2025",
+      slug: "practical-guide-writing-gas-efficient-solidity-smart-contracts" }
+  ]
+};
+</script>
+<!-- ======================= END OF CONTENT ============================== -->
+
+<style>
+  :root {
+    --bg: #fbfbf9; --fg: #1b1b1b; --muted: #6b6b6b; --line: #e7e6e1;
+    --accent: #c2410c; --chip: #f1f0ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111111; --fg: #ececec; --muted: #8c8c8c; --line: #262626;
+      --accent: #fb923c; --chip: #1c1c1c;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg); color: var(--fg);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 72px 20px 56px; }
+  a { color: inherit; text-decoration: none; border-bottom: 1px solid var(--line); transition: border-color .15s, color .15s; }
+  a:hover { color: var(--accent); border-color: var(--accent); }
+  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+
+  header h1 { font-size: 28px; font-weight: 600; letter-spacing: -0.02em; }
+  header p { color: var(--muted); margin-top: 10px; }
+  .links { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 18px; font-size: 14px; }
+
+  section { margin-top: 52px; }
+  h2 {
+    font-size: 12px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em;
+    color: var(--muted); padding-bottom: 10px; margin-bottom: 4px; border-bottom: 1px solid var(--line);
+  }
+  .item { padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .item:last-child { border-bottom: 0; }
+  .row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+  .title { font-weight: 500; }
+  .org { color: var(--muted); font-weight: 400; }
+  .date { color: var(--muted); font-size: 12.5px; white-space: nowrap; }
+  .note { color: var(--muted); font-size: 15px; margin-top: 3px; }
+  .badge { color: var(--accent); font-size: 12.5px; margin-left: 8px; font-weight: 400; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .tags span { font-size: 12px; background: var(--chip); color: var(--muted); padding: 2px 8px; border-radius: 4px; }
+  .compact .item { padding: 9px 0; }
+  .compact .title { font-weight: 400; }
+
+  footer { margin-top: 64px; color: var(--muted); font-size: 13px; }
+
+  @media (max-width: 520px) {
+    main { padding-top: 48px; }
+    .row { flex-direction: column; gap: 0; }
+    .badge { display: block; margin: 2px 0 0; }
+  }
+</style>
+</head>
+<body>
+<main id="app"></main>
+
+<script>
+  const a = (text, url) => url ? `<a href="${url}"${url.startsWith("http") ? ' target="_blank" rel="noopener"' : ""}>${text}</a>` : text;
+  const date = d => d ? `<span class="date mono">${d}</span>` : "";
+  const section = (title, items, cls = "") =>
+    items && items.length ? `<section class="${cls}"><h2>${title}</h2>${items.join("")}</section>` : "";
+
+  const experience = (SITE.experience || []).map(x => `
+    <div class="item">
+      <div class="row"><span class="title">${x.role} <span class="org">· ${a(x.org, x.link)}</span></span>${date(x.date)}</div>
+      ${x.note ? `<p class="note">${x.note}</p>` : ""}
+    </div>`);
+
+  const projects = (SITE.projects || []).map(x => `
+    <div class="item">
+      <div class="row"><span class="title">${a(x.name, x.link)}${x.award ? `<span class="badge">${x.award}</span>` : ""}</span></div>
+      ${x.note ? `<p class="note">${x.note}</p>` : ""}
+      ${x.tags && x.tags.length ? `<div class="tags mono">${x.tags.map(t => `<span>${t}</span>`).join("")}</div>` : ""}
+    </div>`);
+
+  const achievements = (SITE.achievements || []).map(x => `
+    <div class="item"><div class="row"><span class="title">${x.title}</span>${date(x.date)}</div></div>`);
+
+  const campus = (SITE.campus || []).map(x => `
+    <div class="item"><div class="row"><span class="title">${x.role} <span class="org">· ${x.org}</span></span>${date(x.date)}</div></div>`);
+
+  const writing = (SITE.writing || []).map(x => `
+    <div class="item"><div class="row"><span class="title">${a(x.title, x.link || (x.slug ? `post.html?p=${x.slug}` : ""))}</span>${date(x.date)}</div></div>`);
+
+  document.title = SITE.name;
+  document.getElementById("app").innerHTML = `
+    <header>
+      <h1>${SITE.name}</h1>
+      <p>${SITE.about}</p>
+      <nav class="links">${(SITE.links || []).map(l => a(l.label, l.url)).join("")}</nav>
+    </header>
+    ${section("Experience", experience)}
+    ${section("Projects", projects)}
+    ${section("Achievements", achievements, "compact")}
+    ${section("Campus", campus, "compact")}
+    ${section("Writing", writing, "compact")}
+    <footer>© ${new Date().getFullYear()} ${SITE.name}</footer>
+  `;
+</script>
+</body>
+</html>
